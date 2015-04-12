@@ -1,0 +1,174 @@
+/*!
+ * Start Bootstrap - Modern Business HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+}
+
+.img-portfolio {
+    margin-bottom: 30px;
+}
+
+.img-hover:hover {
+    opacity: 0.8;
+}
+
+/* Home Page Carousel */
+
+header.carousel {
+    height: 50%;
+}
+
+header.carousel .item,
+header.carousel .item.active,
+header.carousel .carousel-inner {
+    height: 100%;
+}
+
+header.carousel .fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* 404 Page Styles */
+
+.error-404 {
+    font-size: 100px;
+}
+
+/* Pricing Page Styles */
+
+.price {
+    display: block;
+    font-size: 50px;
+    line-height: 50px;
+}
+
+.price sup {
+    top: -20px;
+    left: 2px;
+    font-size: 20px;
+}
+
+.period {
+    display: block;
+    font-style: italic;
+}
+
+/* Footer Styles */
+
+footer {
+    margin: 50px 0;
+}
+
+/*Font Collegiate*/
+@font-face {
+    font-family: "Collegiate";
+    font-style: normal;
+    font-weight: normal;
+    src: local("?"), url("../fonts/collegiateHeavyOutlineMedium.woff") format("woff"), url("../fonts/collegiateHeavyOutlineMedium.ttf") format("truetype");
+}
+
+/*Custom Styles */
+.section {
+    padding: 75px 0;  
+}
+
+#after-footer{
+    background-color: #2196f3;
+    color: #fff;
+}
+
+#mision{
+    background-color: #fff;
+    color: #000;
+}
+
+#vision{
+    background-color: #2196f3;
+    color: #fff;
+}
+
+.section-heading {
+    margin: 30px 0;
+    font-size: 4em;
+}
+
+.section-lead {
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+.brand-name{
+    color:#224193;
+    font-family: "Collegiate";
+    font-style: normal;
+    font-weight: normal;
+    margin: 0;
+    font-size: 4em;
+}
+
+blockquote.message {
+  font: 16pts italic Times, serif;
+  padding-left: 70px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 10px;
+  /*border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;*/
+  margin: 5px;
+  background-image: url(../images/icons/openquote4.gif);
+  background-position: middle left;
+  background-repeat: no-repeat;
+  text-indent: 23px;
+}
+
+.business-header {
+    height: 300px;
+    background: url('../images/header.jpg') center center no-repeat scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+#carousel-example-generic{
+    width: 750px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+
+/* Responsive Styles */
+
+@media(max-width:991px) {
+    .customer-img,
+    .img-related {
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width:767px) {
+    .img-portfolio {
+        margin-bottom: 15px;
+    }
+
+    header.carousel .carousel {
+        height: 70%;
+    }
+}
